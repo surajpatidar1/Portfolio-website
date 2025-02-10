@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#abouts">About</a></li>
+                    <li><a href="#services">Education</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-ellipsis fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1><span>Hi, I'm <span id="name">Suraj Patidar</span><br><br>From Khandwa, I am pursuing B.tech <br> From Shree Vaishav Vidhyapeeth Vishwavidhayla,Indore.</span></h1>
+            </div>
+        </div>
+    </div>
+        <!-- about -->
+        <div class="About" id="abouts">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="asset/copy.png" id="about-img">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p></p>
+                        <div class="tab-title ">
+                            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"  onclick="opentab('education')" >Education</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>MERN Stack</span><br>MERN stands for Mongodb,Express.js,React.js,Node.js which used to Develop anad Design a Web Interface and Web workings.</li>
+                                   <li> <span>Java-core</span><br>Programming Language</li>
+                                    <li><span>C/C++</span><br>Programming Language</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="experience">
+                            <ul>
+                                <li>
+                                    <span>Fresher</span></li>
+                                  
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li>
+                                    <span>10th</span><br>Sophia Convent School,Khandwa</li>
+                                   <li> <span>12th</span><br>Sophia Convent School,Khandwa</li>
+                                    <li><span>UnderGraudation</span><br>Shree Vaishnav vidhyapeeth Vishwavidhalya, Ujjain road, Indore</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------services---------- -->
+         <div id="services">
+   <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+        <div>
+            <h1><i class="fa-solid fa-code" id="icon"></i></h1>
+            <h2>Web Design</h2>
+            <p>Web design involves creating the visual elements and layout of a website, while coding involves translating these designs into a functional website using programming languages like HTML, CSS, and JavaScript.</p>
+            <a href="https://en.wikipedia.org/wiki/Web_design">Learn More</a>
+        </div>
+        <div>
+            <h1><i class="fa-solid fa-database" id="icon"></i></h1>
+            <h2>Mongodb</h2>
+            <p>MongoDB is a source-available, cross-platform, document-oriented database program. Classified as a NoSQL database product, MongoDB uses JSON-like documents with optional schemas.</p>
+            <a href="https://www.mongodb.com/docs/">Learn More</a>
+        </div>
+        <div>
+            <h1><i class="fa-brands fa-react" id="icon"></i></h1>
+            <h2>React JS</h2>
+            <p>React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library that aims to make building user interfaces based on components more "seamless".It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.</p>
+            <a href="https://react.dev/">Learn More</a>
+        </div>
+
+    </div>
+   </div>
+         </div>
+<!-- -------------portfolio------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="asset/hotel.jpg" >
+                <div class="layer">
+                    <h3>Hotel Booking</h3>
+                    <p>Book hotel room online on website by compare their reviews and ratings</p>
+                    <a href="https://github.com/surajpatidar1/booking--webapplication"><i class="fa-solid fa-bed"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="asset/text.png" alt="">
+                <div class="layer">
+                    <h3>Text Editor</h3>
+                    <p>Text can pe edited in multiple ways.</p>
+                    <a href="#"><i class="fa-solid fa-comment"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="asset/soon.jpg" alt="">
+                <div class="layer">
+                    <h3>Up Cooming....</h3>
+                    <p>Work in progress</p>
+                    <a href="#"><i class="fa-solid fa-file-import"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+ </div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Surajpatidar498@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6261922460</p>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="/asset/Resume.docx" download class="btn btn-2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn-2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-heart"></i>Copyright 0 Suraj</p>
+
+    </div>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
