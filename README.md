@@ -13,4 +13,4 @@ Still Exploring techonology facts and gathering knowlegde about IT technologies
 
 #Explore more about me
 Get about me on  a single click : 
-                                    https://portfolio-website-3fv5.onrender.com/
+                                https://surajpatidar.onrender.com
